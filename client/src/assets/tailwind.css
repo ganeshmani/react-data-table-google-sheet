@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  overflow: visible;
+}
