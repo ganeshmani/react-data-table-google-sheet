@@ -153,7 +153,10 @@ function App() {
         <p>
           {" "}
           you can view the saved data in this{" "}
-          <a href="https://docs.google.com/spreadsheets/d/1tmsZYobs8R52jcbW-DdNr_B5spvfNwBf7rtF3zEcQro/edit?usp=sharing">
+          <a
+            className="no-underline hover:underline text-blue-500 text-lg"
+            href="https://docs.google.com/spreadsheets/d/1tmsZYobs8R52jcbW-DdNr_B5spvfNwBf7rtF3zEcQro/edit?usp=sharing"
+          >
             sheet
           </a>
         </p>
