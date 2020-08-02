@@ -12,7 +12,7 @@ function App() {
   const [skipPageReset, setSkipPageReset] = useState(false);
 
   const [mutate, { isSuccess, data, error }] = useMutation((event) => {
-    fetch(`http://localhost:3005/save`, {
+    fetch(`https://react-smar-data-table-sheet.herokuapp.com/save`, {
       method: "POST",
       body: JSON.stringify(event),
       headers: {
