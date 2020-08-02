@@ -149,6 +149,15 @@ function App() {
           </div>
         </div>
       ) : null}
+      <div className="mt-8">
+        <p>
+          {" "}
+          you can view the saved data in this{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1tmsZYobs8R52jcbW-DdNr_B5spvfNwBf7rtF3zEcQro/edit?usp=sharing">
+            sheet
+          </a>
+        </p>
+      </div>
       <div className="flex justify-center mt-8">
         <Searchbar onChange={onSearchbarChange} />
         <DropDown
